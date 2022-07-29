@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js"></script>
+</head>
+
+<body>
+
+<!-- ===============Sidenav=========================== -->
+    <div id="mySidenav" class="sidenav">
+        <a href="#" onclick="closeNav();">&#x2715</a>
+        <a href="#">Home</a>
+        <a href="#">Home</a>
+        <a href="#">Home</a>
+        <a href="#">Home</a>
+    </div>    
+
+    <span onclick="openNav();"><strong>Open</strong></span>
+
+
+<br>
+<br>
+<br>
+<br>
+
+    <div id="main">
+
+<!-- ====================Fullscreen====================== -->
+
+        <button onclick="openFullscreen();" >Open Video In Fullscreen</button>
+
+<br>
+<br>
+
+        <video controls muted width="600px" id="myvideo">
+            <source src="video.mp4">
+        </video>
+
+
+    <br>
+    <br>
+    <br>
+    <br>
+
+<!-- ==================Show and Hide======================== -->
+
+    <button onclick="showProfile();" >Show and Hide Profile</button>
+
+    <div id="myprofile" class="profile">
+        <h1>Name : Mustafa</h1>
+        <h1>Age : 24 </h1>
+        <h1>Country : Egypt</h1>
+    </div>               
+
+
+    
+    </div>
+
+
+
+    
+</body>
+</html>
